@@ -32,7 +32,7 @@ var (
 	// there is one memory usage sample per day (the maximum usage over that
 	// day).
 	// Note: AggregationWindowLength must be integrally divisible by this value.
-	MemoryAggregationInterval = time.Hour * 24
+	MemoryAggregationInterval = time.Hour
 	// CPUHistogramOptions are options to be used by histograms that store
 	// CPU measures expressed in cores.
 	CPUHistogramOptions = cpuHistogramOptions()
